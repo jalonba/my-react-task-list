@@ -1,5 +1,6 @@
 body {
   background-color: rgb(216, 220, 246);
-  text-align: center;
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
