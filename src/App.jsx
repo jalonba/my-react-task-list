@@ -1,11 +1,15 @@
-import Tasklist from "./components/Tasklist";
 import Header from "./components/Header";
+import Body from "./components/Body";
+import Tareas from "./components/Tareas";
 
 function App() {
   return (
-    <Tasklist>
-      <Header></Header>
-    </Tasklist>
+    <Body>
+      <Header />
+      <div>
+        <Tareas />
+      </div>
+    </Body>
   );
 }
 
