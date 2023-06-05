@@ -6,6 +6,7 @@ function App() {
   return (
     <Body>
       <Header />
+      <br></br>
       <div>
         <Tareas />
       </div>
