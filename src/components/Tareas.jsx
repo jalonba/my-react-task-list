@@ -34,6 +34,7 @@ function Tareas() {
           }}
         >
           <input name="nuevaTarea" />
+          <input name="descripción" />
           <button>Agregar Nueva Tarea</button>
         </form>
       </div>
