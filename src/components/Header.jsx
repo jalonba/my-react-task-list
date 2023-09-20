@@ -1,4 +1,12 @@
-function Header() {
-  return <h1 className="header"> App Mi Lista de Tareas</h1>;
+import React from "react";
+import "../App.css";
+
+function Header(props) {
+  return (
+    <header>
+      <h1 className="header-container">My Task-List</h1>
+    </header>
+  );
 }
+
 export default Header;
